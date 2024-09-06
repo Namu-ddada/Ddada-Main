@@ -18,12 +18,12 @@
 ### 프로젝트 설계
 
 - [x] 유저 프로세스 설계
-- [ ] ERD 설계
-- [ ] API 설계
-- [ ] DB 설계
+- [x] ERD 설계
+- [x] API 설계
+- [x] DB 설계
 
 ## 학습 내용
 
-- [ ] PostgreSQL 학습
-- [△] Redis 학습
-- [ ] ES 학습
+- [x] PostgreSQL 학습
+- [x] Redis 학습
+- [△] ES 학습
