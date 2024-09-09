@@ -1,18 +1,13 @@
 ## 한 일
 
-### 프로젝트 설계
-
-- [x] ERD 작성
-- [x] API 명세서 작성
-
 ### 프로젝트 개발
 
-- [△] 경기 및 시설 관련 MVC 구축
+- [△] 경기 관련 API 구축
+- [△] 시설 관련 API 구축
+- [△] 매니저 관련 API 구축
 
 ### 프로젝트 인프라 구축
 
-- [x] Redis Cluster 구축
-- [x] Redis Cluster 연동
 - [△] ElasticSearch 구축
 - [ ] ElasticSearch 연동
 
