@@ -12,9 +12,9 @@
 
 <div align="center">
   
-| [박상우](https://github.com/coolfin) | [전태호](https://github.com/Taehororo) | [최홍석](https://github.com/k-redstone) | [정한수](https://github.com/k-redstone) | [최성철](https://github.com/k-redstone) |[윤경서](https://github.com/k-redstone) |
+| [박상우](https://github.com/coolfin) | [전태호](https://github.com/Taehororo) | [최홍석](https://github.com/k-redstone) | [정한수](https://github.com/k-redstone) | [최성철](https://github.com/CSchoice) |[윤경서](https://github.com/k-redstone) |
 | :----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | 
-|<img src="https://avatars.githubusercontent.com/u/56531884?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/145996139?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|
+|<img src="https://avatars.githubusercontent.com/u/56531884?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/145996139?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="docs/images/profile/choi.png" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|
 |          FE, DESIGN          |                  FE                  |              FE, INFRA              |              BE, INFRA              |              BE            |              DATA              |
 
 </div>
@@ -163,6 +163,9 @@
 ### 🏓최성철
 
 - ## **BE**
+    - 유저관리 : 플레이어 회원관리, 플레이어 프로필, 플레이어 분석 데이터 조회
+    - 인증 : 유저 인증 시스템
+    - 데이터 : 데이터 파트와 API 연결
 
 <br>
 
