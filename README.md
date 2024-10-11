@@ -12,7 +12,7 @@
 
 <div align="center">
   
-| [박상우](https://github.com/coolfin) | [전태호](https://github.com/Taehororo) | [최홍석](https://github.com/k-redstone) | [정한수](https://github.com/k-redstone) | [최성철](https://github.com/CSchoice) |[윤경서](https://github.com/k-redstone) |
+| [박상우](https://github.com/coolfin) | [전태호](https://github.com/Taehororo) | [최홍석](https://github.com/k-redstone) | [정한수](https://github.com/Jung-hansu) | [최성철](https://github.com/CSchoice) |[윤경서](https://github.com/k-redstone) |
 | :----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | 
 |<img src="https://avatars.githubusercontent.com/u/56531884?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/145996139?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="docs/images/profile/choi.png" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|
 |          FE, DESIGN          |                  FE                  |              FE, INFRA              |              BE, INFRA              |              BE            |              DATA              |
@@ -67,7 +67,7 @@
 
 ### merge
 
-- 영문은 모두 소**문자**를 사용한다.
+- 영문은 모두 **소문자**를 사용한다.
 - 내용은 템플릿을 사용한다.
 - 생성 예시
   **분야/타입/#이슈번호 기능명 | 간단한 설명**
@@ -107,7 +107,23 @@
 
 ---
 
- <img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&amp;logo=eslint&amp;logoColor=white" height="35">
+#### 🚀 프레임워크 및 라이브러리
+
+<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&amp;logo=springboot&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/spring_security-6DB33F?style=for-the-badge&amp;logo=springsecurity&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&amp;logo=swagger&amp;logoColor=white" height="35">
+
+#### 📂 DB 및 스토리지
+
+<img src="https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/redis-FF4438?style=for-the-badge&amp;logo=redis&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/elasticsearch-005571?style=for-the-badge&amp;logo=elasticsearch&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/aws_s3-569A31?style=for-the-badge&amp;logo=amazons3&amp;logoColor=white" height="35">
+
+#### 🎁 API
+
+<img src="https://img.shields.io/badge/kakao-FFCD00?style=for-the-badge&amp;logo=kakao&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" height="35">
 
 ### DATA
 
@@ -117,13 +133,26 @@
 <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" height="35">
 <img src="https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&amp;logo=jupyter&amp;logoColor=white" height="35">
 
-</div>
+### INFRA
+
+---
+
+#### 🔗 CI/CD
+
+<img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&amp;logo=jenkins&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&amp;logo=nginx&amp;logoColor=white" height="35">
+
+#### 💻 모니터링
+
+<img src="https://img.shields.io/badge/prometheus-E6522C?style=for-the-badge&amp;logo=prometheus&amp;logoColor=white" height="35"> 
+<img src="https://img.shields.io/badge/grafana-F46800?style=for-the-badge&amp;logo=grafana&amp;logoColor=white" height="35">
 
 ## 역할 분담
 
 ### 🍊박상우
 
-- 기획
+- **기획**
   - JIRA 번다운차트, 스프린트 관리
   - UT(Usability Test) 가이드 제작
   - QA(Quality Assuarance) 가이드 제작
@@ -155,8 +184,17 @@
 
 ### 🐱‍🏍정한수
 
-- ## **BE**
-- ## **INFRA**
+- **BE**
+
+  - 매치 관리 : 체육관, 코트, 매치, 점수 데이터 설계 및 API 관리
+  - 매니저, 체육관 관리자 관리 : 매니저 및 체육관 관리자 로직 관리
+  - 라켓 관리 : ES를 이용한 검색 기능
+
+- **INFRA**
+  - 서버 관리 : 백엔드 dev/prod 서버 관리
+  - CI/CD 관리 : Docker를 사용해 Jenkins 파이프라인 관리
+  - DB 인스턴스 관리 : PostgreSQL, Elasticsearch, Redis Cluster 구축
+  - 모니터링 : Prometheus, Grafana를 통한 모니터링
 
 <br>
 
@@ -307,6 +345,8 @@
 <br>
 
 ### 🐱‍🏍정한수
+
+Spring Boot에서 JPA를 사용해 객체간 관계를 설계하는 과정에서 여러 시행착오를 겪으며 많은 것을 배웠습니다. 어노테이션을 이용해 객체 간 제약 조건을 설정하는 방법과 Record 클래스를 이용한 DTO, 각종 Exception Handling 및 디버깅을 위한 로깅 등 백엔드 개발자로써 많이 성장했다는 것이 느껴지는 프로젝트였습니다. 이전 프로젝트에서 사용한 인프라 지식을 활용해 프로젝트 초기부터 CI/CD를 구축해 프로젝트를 초기부터 원활하게 진행할 수 있었던 점과, PostgreSQL, Redis Clustering, ES 등 DB에 대한 도전이 성공적으로 끝마쳤다는 점도 뿌듯했습니다.
 
 <br>
 
