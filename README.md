@@ -113,7 +113,9 @@
 
 ---
 
-<img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&amp;logo=eslint&amp;logoColor=white" height="35">
+<img src="https://img.shields.io/badge/fastapi-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" height="35">
+<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" height="35">
+<img src="https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&amp;logo=jupyter&amp;logoColor=white" height="35">
 
 </div>
 
@@ -144,6 +146,26 @@
   - 공통 컴포넌트 : 메인 헤더, 모달
 - **기능**
   - 매니저가 배드민턴 점수를 사용자들에게 입력하는 기능, 배트민턴 라켓 추천 기능, 신고 기능, 체육관 관리자의 돈 인출 기능
+
+### 🐱‍🏍정한수
+
+- ## **BE**
+- ## **INFRA**
+
+<br>
+
+### 🏓최성철
+
+- ## **BE**
+
+<br>
+
+### 🎯윤경서
+
+- ## **DATA**
+- ## **분석**
+
+<br>
 
 ## 📖 **페이지별 기능**
 
@@ -263,11 +285,11 @@
 
 <br>
 
-### 😎정한수
+### 🐱‍🏍정한수
 
 <br>
 
-### 😎최성철
+### 🏓최성철
 
 <br>
 
