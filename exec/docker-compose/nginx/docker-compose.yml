@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
+    container_name: nginx
+    networks:
+      - ddada-network
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - TZ=Asia/Seoul
+    volumes:
+      - /home/ubuntu/nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+networks:
+  ddada-network:
+    external: true
+
+
+
