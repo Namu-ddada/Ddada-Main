@@ -14,7 +14,7 @@
   
 | [박상우](https://github.com/coolfin) | [전태호](https://github.com/Taehororo) | [최홍석](https://github.com/k-redstone) | [정한수](https://github.com/Jung-hansu) | [최성철](https://github.com/CSchoice) |[윤경서](https://github.com/k-redstone) |
 | :----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | 
-|<img src="https://avatars.githubusercontent.com/u/56531884?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/145996139?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="docs/images/profile/choi.png" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|
+|<img src="https://avatars.githubusercontent.com/u/56531884?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/145996139?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/97068614?v=4" width="100">|<img src="docs/images/profile/choi.png" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|
 |          FE, DESIGN          |                  FE                  |              FE, INFRA              |              BE, INFRA              |              BE            |              DATA              |
 
 </div>
