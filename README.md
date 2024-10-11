@@ -12,9 +12,9 @@
 
 <div align="center">
   
-| [박상우](https://github.com/coolfin) | [전태호](https://github.com/Taehororo) | [최홍석](https://github.com/k-redstone) | [정한수](https://github.com/Jung-hansu) | [최성철](https://github.com/CSchoice) |[윤경서](https://github.com/k-redstone) |
+| [박상우](https://github.com/coolfin) | [전태호](https://github.com/Taehororo) | [최홍석](https://github.com/k-redstone) | [정한수](https://github.com/Jung-hansu) | [최성철](https://github.com/CSchoice) |[윤경서](https://github.com/yoonkyungseo) |
 | :----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | 
-|<img src="https://avatars.githubusercontent.com/u/56531884?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/145996139?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/97068614?v=4" width="100">|<img src="docs/images/profile/choi.png" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|
+|<img src="https://avatars.githubusercontent.com/u/56531884?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/145996139?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="https://avatars.githubusercontent.com/u/79430840?v=4" width="100">|<img src="docs/images/profile/choi.png" width="100">|<img src="docs/images/profile/yoon.png" width="100">|
 |          FE, DESIGN          |                  FE                  |              FE, INFRA              |              BE, INFRA              |              BE            |              DATA              |
 
 </div>
@@ -363,5 +363,6 @@ Spring Boot에서 JPA를 사용해 객체간 관계를 설계하는 과정에서
 ### 🎯윤경서
 데이터 방향성을 잡는 것이 오래걸려 아쉬웠습니다. 도메인에 대한 지식이 부족하여 사전 지식 학습 후 데이터 분석에 적용하는 과정에서 시간이 넉넉치 못해 다양하게 데이터를 뜯어보지 못한 것 같은 아쉬움이 있습니다. 그럼에도 배드민턴이 실력을 구분할 수 있는 지표가 명확하지 않아 이를 보여줄 수 있는 분석 결과를 주기 위해 다양한 방식으로 지표를 산정하고자 했던 것은 좋은 경험이었다고 생각합니다.
 데이터 분석을 백엔드, 프론트엔드와 함께 실제 서비스로 연결하는 프로젝트는 이번이 처음이었는데 프로젝트 기한에 따라 데이터 탐색, 분석, 알고리즘 개발, 서비스 연결까지의 계획을 짜고 해당 일정을 명확히 관리하지 못해 데이터 부분의 서비스가 백엔드와 프론트엔드 진행단계에 비해 더뎠던 것 같습니다. 이를 기반으로 다음 프로젝트에 있어서는 계획을 조금 더 명확하게 기한을 정하고 이에 맞춰 데이터 분석을 진행해보려고 합니다. 또한, 백엔드와 데이터가 함께 DB를 쓰다보니 한쪽에서 문제가 생겼을 때 다른 쪽에서 진행이 원활히 되지 않아 진행이 지연된 부분이 있었습니다. 다음 프로젝트에서는 백엔드와 데이터의 DB를 분리해서 의존성을 낮추면 좋을 것 같습니다. 
+CI/CD 부분을 배웠던 점도 좋았습니다. 데이터 서버의 CI/CD를 맡아 인프라 부분을 담당한 팀원에게 배우고, 도움을 받아 직접 파이프라인을 작성해 배포해볼 수 있어서 유익했습니다.
 프론트와 백엔드, 디자인 및 기획, 데이터로 이루어진 명확한 역할 분담으로 데이터 파트만을 온전히 담당해 수집한 데이터에 집중할 수 있었던 점은 좋았습니다. 또한, 팀원간의 원활한 소통으로 문제가 발생했을 때나 디벨롭 사항이 생겼을 때 바로바로 해결이 되었던 점이 좋았습니다. 다음 프로젝트에서는 이번 프로젝트의 아쉬움을 보완할 수 있는 프로젝트가 될 수 있도록 노력하겠습니다.
 <br>
