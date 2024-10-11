@@ -1,0 +1,121 @@
+version: '3.9'
+
+services:
+  redis-master-1:
+    image: redis:7.4
+    command: >
+      redis-server --cluster-enabled yes --cluster-config-file nodes.conf --appendonly yes
+      --protected-mode no --requirepass ssafy --bind 0.0.0.0 --cluster-node-timeout 30000
+      --port 7000 --cluster-announce-bus-port 17000 --cluster-require-full-coverage no
+      --cluster-announce-ip 3.35.19.245 --cluster-announce-port 7000
+    container_name: redis-master-1
+    network_mode: host
+    environment:
+      - REDISCLI_AUTH=ssafy
+    volumes:
+      - redis-master-1-data:/data
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  redis-master-2:
+    image: redis:7.4
+    command: >
+      redis-server --cluster-enabled yes --cluster-config-file nodes.conf --appendonly yes
+      --protected-mode no --requirepass ssafy --bind 0.0.0.0 --cluster-node-timeout 30000
+      --port 7002 --cluster-announce-bus-port 17002 --cluster-require-full-coverage no
+      --cluster-announce-ip 3.35.19.245 --cluster-announce-port 7002
+    container_name: redis-master-2
+    network_mode: host
+    environment:
+      - REDISCLI_AUTH=ssafy
+    volumes:
+      - redis-master-2-data:/data
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  redis-master-3:
+    image: redis:7.4
+    command: >
+      redis-server --cluster-enabled yes --cluster-config-file nodes.conf --appendonly yes
+      --protected-mode no --requirepass ssafy --bind 0.0.0.0 --cluster-node-timeout 30000
+      --port 7004 --cluster-announce-bus-port 17004 --cluster-require-full-coverage no
+      --cluster-announce-ip 3.35.19.245 --cluster-announce-port 7004
+    container_name: redis-master-3
+    network_mode: host
+    environment:
+      - REDISCLI_AUTH=ssafy
+    volumes:
+      - redis-master-3-data:/data
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  redis-slave-1:
+    image: redis:7.4
+    command: >
+      redis-server --cluster-enabled yes --cluster-config-file nodes.conf --appendonly yes
+      --protected-mode no --requirepass ssafy --bind 0.0.0.0 --cluster-node-timeout 30000
+      --port 7001 --cluster-announce-bus-port 17001 --cluster-require-full-coverage no
+      --cluster-announce-ip 3.35.19.245 --cluster-announce-port 7001
+      --masterauth ssafy
+    container_name: redis-slave-1
+    network_mode: host
+    environment:
+      - REDISCLI_AUTH=ssafy
+    volumes:
+      - redis-slave-1-data:/data
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  redis-slave-2:
+    image: redis:7.4
+    command: >
+      redis-server --cluster-enabled yes --cluster-config-file nodes.conf --appendonly yes
+      --protected-mode no --requirepass ssafy --bind 0.0.0.0 --cluster-node-timeout 30000
+      --port 7003 --cluster-announce-bus-port 17003 --cluster-require-full-coverage no
+      --cluster-announce-ip 3.35.19.245 --cluster-announce-port 7003
+      --masterauth ssafy
+    container_name: redis-slave-2
+    network_mode: host
+    environment:
+      - REDISCLI_AUTH=ssafy
+    volumes:
+      - redis-slave-2-data:/data
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  redis-slave-3:
+    image: redis:7.4
+    command: >
+      redis-server --cluster-enabled yes --cluster-config-file nodes.conf --appendonly yes
+      --protected-mode no --requirepass ssafy --bind 0.0.0.0 --cluster-node-timeout 30000
+      --port 7005 --cluster-announce-bus-port 17005 --cluster-require-full-coverage no
+      --cluster-announce-ip 3.35.19.245 --cluster-announce-port 7005
+      --masterauth ssafy
+    container_name: redis-slave-3
+    network_mode: host
+    environment:
+      - REDISCLI_AUTH=ssafy
+    volumes:
+      - redis-slave-3-data:/data
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  redis-master-1-data:
+  redis-master-2-data:
+  redis-master-3-data:
+  redis-slave-1-data:
+  redis-slave-2-data:
+  redis-slave-3-data:
